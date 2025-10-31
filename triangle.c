@@ -7,7 +7,7 @@ int main()
     {
         for(int j=1;j<=2*n-1;j++)
         {
-            if(j>=i&&j<2*n-i) printf("#");
+            if(j>=i&&j<2*n-i) printf("#\n");
             else if(j==2*n-i) printf("#\n");
             else if(j<i) printf(" ");
         }
